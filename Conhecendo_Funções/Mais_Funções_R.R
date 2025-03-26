@@ -76,3 +76,4 @@ z[,1]   # Extraindo Coluna
 
 # Dimensão " Mostra a quantidade de linha e coluna de uma Matriz "
 dim(x)
+
