@@ -77,3 +77,10 @@ z[,1]   # Extraindo Coluna
 # Dimensão " Mostra a quantidade de linha e coluna de uma Matriz "
 dim(x)
 
+# Array cria mais de 1 matriz de uma só vez
+
+x <- array(1:24, c(4,2, 3))  # Num de Linha , Num de Coluna , Num de Matriz
+print(x)
+
+x[3,2,3] # 3 linha , 2 coluna , 3 matriz
+
