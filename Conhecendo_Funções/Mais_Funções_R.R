@@ -84,3 +84,10 @@ print(x)
 
 x[3,2,3] # 3 linha , 2 coluna , 3 matriz
 
+# Fatores " Transforma os Dados em Níveis "
+
+sexo <- c("f", "m", "m", "m", "f", "m", "f", "m", "f", "f")
+
+sexo <- factor(sexo)
+
+summary(sexo)
