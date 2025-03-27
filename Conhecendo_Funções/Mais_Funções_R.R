@@ -91,3 +91,39 @@ sexo <- c("f", "m", "m", "m", "f", "m", "f", "m", "f", "f")
 sexo <- factor(sexo)
 
 summary(sexo)
+
+# Lista " armazena diferentes tipos de dados (dados com string, numero, e até funções)
+# Dentro da Lista usa o sempre o sinal de igual
+pessoa <- list(nome = 'maria', idade = 15, sexo = 'F', notas = c(10,10,9))
+
+pessoa$nome
+pessoa$idade
+pessoa$sexo
+pessoa$notas
+
+# Data.Frames " Criação de tabelas "
+
+Nome <- c('João', 'Maria', 'Julia', 'Pedro', 'Rafael')
+Idade <- c(64, 17, 15, 21, 32)
+Sexo <- c('M', 'F', 'F', 'M', 'M')
+Notas <- c(10,10,10,8,9)
+
+escola <- data.frame(Nome, Idade, Sexo, Notas)
+print(escola)
+
+escola[2,]
+escola[2,1]
+
+escola$Sexo
+escola$Notas
+
+faltas <- c(1,1,1,3,3)
+
+escola_atualizado <- cbind(escola,faltas)
+print(escola_atualizado)
+
+escola_atualizado[order(escola_atualizado$Idade)]
+
+print(escola_atualizado)
+escola_atualizado$Sexo <- NULL
+print(escola_atualizado)
