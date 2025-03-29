@@ -1,0 +1,1 @@
+Nesta Pasta vamos interagir o R com Python no Vs Code
