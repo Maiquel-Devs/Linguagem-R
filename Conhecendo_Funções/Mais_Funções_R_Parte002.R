@@ -32,3 +32,12 @@ while (contador <= 10) {
   print(contador)
   contador <- contador + 1
 }
+
+# Funções (Criando Elas)
+
+somar <- function(a,b) {
+  c <- a + b
+  return(c)
+}
+
+somar(1,5)
