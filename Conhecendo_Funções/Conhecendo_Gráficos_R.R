@@ -40,3 +40,19 @@ plot(x, x^4, main = "x^4")
 
 x <- c(2,2,2,2,2,3,3,3,4,4,5,5,6)
 hist(x)
+
+# Grafico de Barras 
+
+x <- c(42, 51, 59, 64, 76)
+barplot(x)
+
+# Boxplot
+
+x <- c(160, 165, 168, 170, 172, 174, 180, 185, 190, 250)
+
+boxplot(x)
+
+# Gráfico de Setores (Gráfico de PIZZA)
+
+x <- (1:7)
+pie(x)
