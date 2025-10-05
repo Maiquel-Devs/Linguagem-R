@@ -81,3 +81,4 @@ qqnorm(Catalisador_02, main = "Q-Q Plot - Catalisador 02")
 qqline(Catalisador_02, col = "blue")
 
 # p-values > 0.05 indicam que podemos assumir normalidade para ambos.
+
